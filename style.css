@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.main{
+    width: 100vw;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.introVidBox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("https://i.pinimg.com/564x/a4/be/e4/a4bee4bcc3fc76d0705d86c99c259031.jpg");
+    background-size: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.introVidBox>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+.page1ContentBox{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+
+}
+.myPic{
+    width: 27%;
+    margin-left: 9vmax;
+    
+}
